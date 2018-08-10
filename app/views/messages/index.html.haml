@@ -1,0 +1,17 @@
+.wrapper
+  = render 'shared/side_bar'
+  .chat
+    .chat-header
+      .left-header
+        .left-header__title test
+        %ul.left-header__members
+          %li.member Member : tomoki
+      .right-header
+        .right-header__button Edit
+    .messages
+    .form
+      .form__message type a message
+      .form__mask
+        .form__mask__image
+          = fa_icon "picture-o"
+      .form__submit Send

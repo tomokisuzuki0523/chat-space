@@ -1,0 +1,21 @@
+.wrapper{
+  display: flex;
+  height: 100vh;
+  .side-bar{
+    box-sizing: border-box;
+    color: #fff;
+    width: 300px;
+    margin: 0;
+    display: block;
+    background: #FFF;
+  }
+  .chat {
+    width: calc(100% - 300px);
+    color: #000;
+    background: #FFF;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: block;
+  }
+}
